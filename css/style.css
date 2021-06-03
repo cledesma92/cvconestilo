@@ -16,8 +16,8 @@ body {
   --oscuro: #222223ff;
   --claro: #ebeff0ff;
   --verde: #51e9a1ff;
-  --azul: #586ef3ff;
-  --gris: #5e5c7f;
+  --azul: rgb(112, 131, 240);
+  --gris: #3c3b50;
   --rojo: #c4302b;
 }
 
