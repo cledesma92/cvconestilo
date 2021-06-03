@@ -320,6 +320,13 @@ footer {
   .services article {
     padding: 0 30px;
   }
+
+  .dev,
+  .dsgn,
+  .youtube,
+  .portfolio {
+    padding: 50px 50px;
+  }
 }
 
 @media screen and (max-width: 680px) {
