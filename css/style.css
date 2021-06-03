@@ -318,9 +318,10 @@ footer {
   }
 
   .services article {
-    padding: 0 30px;
+    padding: 0;
   }
 
+  .me,
   .dev,
   .dsgn,
   .youtube,
