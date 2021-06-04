@@ -359,15 +359,15 @@ footer {
   }
 
   .cont-header {
-    padding: 15px;
+    padding: 20px;
   }
 
   .logo {
-    width: 150px;
+    width: 200px;
   }
 
   .scroll-down {
-    bottom: 25px;
+    display: none;
   }
 }
 
