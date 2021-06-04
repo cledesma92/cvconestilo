@@ -16,7 +16,7 @@ body {
   --oscuro: #222223ff;
   --claro: #ebeff0ff;
   --verde: #51e9a1ff;
-  --azul: #8c9bf0;
+  --azul: #7e9beb;
   --gris: #333342;
   --rojo: #c4302b;
 }
@@ -202,7 +202,7 @@ section h2 {
 }
 
 .dev {
-  background-color: var(--azul);
+  background-color: var(--gris);
 }
 
 .dsgn {
@@ -214,7 +214,7 @@ section h2 {
 }
 
 .portfolio {
-  background-color: var(--gris);
+  background-color: var(--azul);
 }
 
 footer {
@@ -225,14 +225,14 @@ footer {
 
 header,
 .about,
-.dev,
+.portfolio,
 .dsgn {
   color: var(--oscuro);
 }
 
 .services,
 .youtube,
-.portfolio,
+.dev,
 footer {
   color: var(--claro);
 }
@@ -248,6 +248,7 @@ a:focus {
 }
 
 .portfolio a {
+  color: var(--oscuro);
   margin-bottom: 16px;
 }
 
@@ -355,6 +356,18 @@ footer {
   .cont-header h1,
   .cont-header p {
     display: none;
+  }
+
+  .cont-header {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .scroll-down {
+    bottom: 25px;
   }
 }
 
