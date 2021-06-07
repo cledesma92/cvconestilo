@@ -10,6 +10,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   overflow-y: scroll;
+  background-color: #9b9b9b;
 }
 
 :root {
