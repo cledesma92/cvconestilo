@@ -164,12 +164,11 @@ footer {
   height: 50px;
   border-radius: 20px;
   color: white;
-  background-color: #0ab968;
+  background-color: #14b86bcc;
   position: fixed;
   bottom: 0;
   right: 0;
   margin: 20px;
-  opacity: 85%;
 }
 
 /* PADDING */
