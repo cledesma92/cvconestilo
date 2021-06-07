@@ -10,12 +10,12 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   overflow-y: scroll;
-  background-color: #f3f3f3;
+  background-color: var(--claro);
 }
 
 :root {
   --oscuro: #222223ff;
-  --claro: #ebeff0ff;
+  --claro: #d8d6d7ff;
   --verde: #51e9a1ff;
   --azul: #7e9beb;
   --gris: #333342;
