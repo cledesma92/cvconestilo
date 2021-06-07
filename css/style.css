@@ -79,7 +79,7 @@ header p {
 /* SCROLL */
 .scroll-down {
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   color: var(--oscuro);
   animation: miAnimacion 1s infinite ease alternate;
 }
@@ -154,7 +154,7 @@ section {
 }
 
 footer {
-  padding: 46px 0 30px 20px;
+  padding: 36px 0 20px 20px;
 }
 
 /* WHATSAPP BUTTON */
@@ -167,7 +167,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin: 30px;
+  margin: 20px;
   opacity: 85%;
 }
 
@@ -304,7 +304,7 @@ footer {
   }
 
   .about {
-    grid-template: repeat(4, min-content) / 1fr;
+    grid-template: repeat(5, 1fr) / 1fr;
   }
 }
 
@@ -374,6 +374,6 @@ footer {
 /* ANIMACIÓN */
 @keyframes miAnimacion {
   to {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
   }
 }
